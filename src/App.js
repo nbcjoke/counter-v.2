@@ -63,7 +63,9 @@ class App extends React.Component {
           <button onClick={() => this.setState({counters: []})}>Reset</button>
         </div>
         <div className="wrapper__info">
+          <h3>number of counters</h3>
           <h1>{counters.length}</h1>
+          <h3>sum of counters</h3>
           <h1>{sum}</h1>
         </div>
         <div className="wrapper__counters">

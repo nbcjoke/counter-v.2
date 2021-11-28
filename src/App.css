@@ -64,7 +64,7 @@ h1, h2 {
   justify-content: center;
   align-items: center;
   gap: 12px;
-  margin: 100px 0 25px;
+  margin: 25px 0;
 }
 
 .wrapper__counters {
@@ -83,7 +83,12 @@ h1, h2 {
 .wrapper__info {
   border: 1px solid black;
   margin: 20px auto 0;
-  height: 140px;
-  width: 300px;
+  height: 200px;
+  width: 360px;
 
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: -10px;
 }
